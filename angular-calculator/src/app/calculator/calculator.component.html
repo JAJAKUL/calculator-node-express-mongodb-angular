@@ -1,0 +1,38 @@
+<body>
+  <div class="calculator">
+      <div class="display">
+          <input type="text" id="inputBox" value="0" [(ngModel)]="getData" placeholder="0" disabled>
+      </div>
+      <div class="row">
+          <button type="button" class="opr" (click)="clearall()">AC</button>
+          <button type="button" class="opr" (click)="delete()">DEL</button>
+          <button type="button" class="opr" (click)="addcara()">&#xB1;</button>
+          <button type="button" class="opr" (click)="addop('/')">/</button>
+      </div>
+      <div class="row">
+          <button type="button" (click)="add('7')">7</button>
+          <button type="button" (click)="add('8')">8</button>
+          <button type="button" (click)="add('9')">9</button>
+          <button type="button" class="opr" (click)="addop('*')">*</button>
+      </div>
+      <div class="row">
+          <button type="button" (click)="add('4')">4</button>
+          <button type="button" (click)="add('5')">5</button>
+          <button type="button" (click)="add('6')">6</button>
+          <button type="button" class="opr" (click)="addop('+')">+</button>
+      </div>
+      <div class="row">
+          <button type="button" (click)="add('1')">1</button>
+          <button type="button" (click)="add('2')">2</button>
+          <button type="button" (click)="add('3')">3</button>
+          <button type="button" class="opr" (click)="addop('-')">-</button>
+      </div>
+      <div class="row">
+          <button type="button" (click)="add('00')">00</button>
+          <button type="button" (click)="add('0')">0</button>
+          <button type="button" (click)="add('.')">.</button>
+          <button type="button" id="eqBtn" (click)="reponse()">=</button>
+      </div>
+
+  </div>
+</body>
