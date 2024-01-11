@@ -17,3 +17,7 @@ npm install
 ```
 node server.js
 ```
+
+
+## OUTPUT
+![image](https://github.com/JAJAKUL/calculator-node-express-mongodb-angular/assets/36547408/9c4458df-d969-4e9b-bbbe-37466062426b)
